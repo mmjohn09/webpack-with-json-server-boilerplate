@@ -10,7 +10,36 @@
 </head>
 
 <body>
-  <article id="container"></article>
+
+  <section id="contactForm">
+
+
+    <fieldset>
+      <label for="name">Full Name</label>
+      <input type="text" id="fullName" name="fullName" placeholder="John Smith">
+    </fieldset>
+
+    <fieldset>
+      <label for="phoneNumber">Phone Number</label>
+      <input type="text" id="phoneNumber" name="phoneNumber" placeholder="555-555-5555">
+    </fieldset>
+
+    <fieldset>
+      <label for="address">Street Address</label>
+      <input type="text" id="address" name="address" placeholder="123 Oak St.">
+    </fieldset>
+    
+  </section>
+
+  <section id="submitButton">
+    <button type="button" name="saveButton">Save</button> 
+  </section>
+
+  <article id="contactContainer"></article>
+
+  <script type="module" src="scripts/main.js"></script> 
+
+
 </body>
 
 </html>

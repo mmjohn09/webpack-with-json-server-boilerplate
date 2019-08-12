@@ -1,24 +1,22 @@
 {
-  "posts": [
+  "contacts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "fullName": "Zebulah",
+      "phoneNumber": "555-555-5555",
+      "address": "1000 Infinity Way",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "fullName": "Maggie Johnson",
+      "phoneNumber": "502-541-4515",
+      "address": "123 Oak St.",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "fullName": "Jane Doe",
+      "phoneNumber": "513-867-5309",
+      "address": "7564 Elm Ave.",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
